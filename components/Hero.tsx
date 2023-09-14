@@ -19,39 +19,13 @@ const Hero = () => {
       </div>
       <div className='hero__image-container'>
         <div className='hero__image'>
-          {/* <Image src={""} /> */}
+          <Image src="/hero.png" alt="Hero" fill className='object-contain'/>
 
-
+          <div className='hero__image-overlay' />
         </div>
       </div>
-      <div className='hero__image-container'>
-        <div className='hero__image'>
-          {/* <Image src={""} /> */}
 
-          
-        </div>
-      </div>
-      <div className='hero__image-container'>
-        <div className='hero__image'>
-          {/* <Image src={""} /> */}
 
-          
-        </div>
-      </div>
-      <div className='hero__image-container'>
-        <div className='hero__image'>
-          {/* <Image src={""} /> */}
-
-          
-        </div>
-      </div>
-      <div className='hero__image-container'>
-        <div className='hero__image'>
-          {/* <Image src={""} /> */}
-
-          
-        </div>
-      </div>
       
     </div>
   )
