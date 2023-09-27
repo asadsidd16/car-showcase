@@ -30,6 +30,9 @@ const CarCard = ({ car }: CarCardProps) => {
           {model}
         </h2>
       </div>
+      <p>
+        <span>Car Rent...</span>
+      </p>
     </div>
   );
 };
