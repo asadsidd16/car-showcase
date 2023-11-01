@@ -42,7 +42,9 @@ const SearchBar = () => {
           placeholder="Tiguan"
           className="searchbar__input"
         />
+            <SearchButton otherClasses="sm:hidden" />
       </div>
+      <SearchButton otherClasses="max-sm:hidden" />
     </form>
   );
 };
